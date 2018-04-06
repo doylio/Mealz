@@ -1,0 +1,26 @@
+{
+  "name": "mealz",
+  "version": "1.0.0",
+  "description": "\"# Mealz\"",
+  "main": "scripts.js",
+  "scripts": {
+    "start": "nodemon scripts.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawndoyle/Mealz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shawndoyle/Mealz/issues"
+  },
+  "homepage": "https://github.com/shawndoyle/Mealz#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.4"
+  }
+}
