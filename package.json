@@ -4,14 +4,14 @@
   "description": "\"# Mealz\"",
   "main": "scripts.js",
   "scripts": {
-    "start": "nodemon scripts.js",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shawndoyle/Mealz.git"
   },
-  "author": "",
+  "author": "Shawn Doyle",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/shawndoyle/Mealz/issues"
@@ -21,6 +21,8 @@
     "nodemon": "^1.17.3"
   },
   "dependencies": {
-    "cors": "^2.8.4"
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
   }
 }
